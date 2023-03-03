@@ -4,10 +4,13 @@ package sample.samplemarket.entity.member;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import sample.samplemarket.entity.common.EntityDate;
 
 import javax.persistence.*;
 import java.util.List;
 import java.util.Set;
+
+import static java.util.stream.Collectors.toSet;
 
 @Entity
 @Getter
